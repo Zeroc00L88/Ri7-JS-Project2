@@ -91,6 +91,7 @@ const questionE = new QuestionAnswer(
     "George Lucas",
     "William Sauvage",
     "Mireille Mathieu",
+    "a",
 );
 
 let userScore = 0;
