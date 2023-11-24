@@ -21,7 +21,9 @@ class QuestionAnswer {
             "\nd -> ",
             this.d,
         );
-        let answer = prompt("Réponse : ");
+        let answer = prompt(
+            "Rentrez une des réponses proposées (a, b, c, ou d uniquement) : ",
+        );
         while (
             answer != "a" &&
             answer != "b" &&
@@ -29,7 +31,9 @@ class QuestionAnswer {
             answer != "d" &&
             answer != "42"
         ) {
-            answer = prompt("Rentrez une des réponses proposées : ");
+            answer = prompt(
+                "Rentrez une des réponses proposées (a, b, c, ou d uniquement) : ",
+            );
         }
         if (answer == this.ga) {
             console.log("\n*************\nBonne réponse\n*************");
